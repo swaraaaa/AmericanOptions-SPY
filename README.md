@@ -83,9 +83,9 @@ Dynamic delta-neutral hedging implemented for SPY call option (Dec 6–13, 2024)
 
 ```
 AmericanOptions-SPY/
-├── 1_LSMC_MonteCarlo.ipynb              # QMC/LSMC pricing implementation
-├── 2_Volatility_DeltaHedging.ipynb      # Volatility estimation & delta hedging
-└── 3_BinomialTree_CrankNicholson_Greeks.ipynb  # Binomial Tree, CN method & Greeks
+├── 1_LSMC_MonteCarlo.ipynb                        # QMC/LSMC pricing implementation
+├── 2_Volatility_DeltaHedging.ipynb                # Volatility estimation & delta hedging
+└── 3_BinomialTree_CrankNicholson_Greeks.ipynb     # Binomial Tree, CN method & Greeks
 ```
 
 ---
@@ -101,6 +101,8 @@ pip install numpy scipy pandas matplotlib yfinance
    - `1_LSMC_MonteCarlo.ipynb` — Monte Carlo pricing
    - `2_Volatility_DeltaHedging.ipynb` — volatility & hedging
    - `3_BinomialTree_CrankNicholson_Greeks.ipynb` — Binomial Tree, Crank-Nicholson & Greeks
+
+> **Note:** SPY historical prices are fetched automatically via `yfinance`. Options market data (bid/ask for strikes 570–640) was sourced from Bloomberg Terminal as of Nov 20, 2024 and Dec 13, 2024. If you don't have Bloomberg access, substitute with options data from Yahoo Finance (`yfinance` options chain) or CBOE for similar strike ranges.
 
 ---
 
