@@ -2,7 +2,7 @@
 
 **Derivatives Pricing · LSMC · Binomial Tree · Crank-Nicholson · Greeks · Delta Hedging · Python**
 
-> FE-620 Final Project — MS Financial Engineering, Stevens Institute of Technology (Dec 2024)
+> FE-620 Final Project — MS Financial Engineering, Stevens Institute of Technology 
 
 > Author: Swara Dave 
 
